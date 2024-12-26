@@ -1,0 +1,21 @@
+.proyectos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.proyecto1{
+    background: url('../src/img/proyecto1.png');
+    width: 32rem;
+    height: 15rem;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgb(3, 3, 3);
+}
+.proyecto2{
+    background: url('../src/img/persona.png');
+    width: 4rem;
+    height: 4rem;
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+}

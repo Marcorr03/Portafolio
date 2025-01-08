@@ -1,0 +1,12 @@
+1	Activo	Combos
+2	Activo	Pollo
+3	Activo	Burritos
+4	Activo	Papas
+5	Activo	Helados
+6	Activo	Tacos
+7	Activo	Frescos
+8	Activo	Batidos
+9	Activo	Adicionales
+10	Activo	Hamburguesas 
+11	Activo	Empanadas
+12	Activo	Extras

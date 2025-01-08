@@ -1,0 +1,49 @@
+    .facturas-container {
+        margin: 20px;
+
+    }
+    
+    .factura {
+        border: 1px solid #000000;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        background-color: #f9f9f9c2;
+        box-shadow: 0 0 10px rgb(75, 77, 6);
+        text-align:justify;
+        padding-left: 100px;
+        justify-content: center;
+        color: #000000;
+        font-weight: bold;
+    }
+    
+    .factura h2 {
+        color: #333;
+    }
+    
+    .factura-info p {
+        font-size: 14px;
+        margin: 5px 0;
+    }
+    
+    .productos {
+        margin-top: 20px;
+    }
+
+    .delete{
+        top: 0;
+        margin-right: 10px;
+        right: auto;
+        font-size: 25px;
+        background-color: #b80808;
+        color: white;
+        border: none;
+        box-shadow: 0 0 10px rgb(175, 75, 75);
+        border-radius:5px ;
+        transition: all 0.3s;
+    }
+
+    .delete:hover{
+        transform: scale(1.03);
+        box-shadow: 0 0 10px rgb(0, 0, 0);
+    }

@@ -1,0 +1,55 @@
+1	Pollo	Activo	Alitas	500
+2	Hamburguesas	Activo	Hamb.Especial Carne	3000
+3	Pollo	Activo	Pollo pequeño	600
+4	Helados	Activo	Cono 1 bola	600
+5	Pollo	Activo	Pechuga	1500
+6	Helados	Activo	Cono 2 bola	850
+7	Tacos	Activo	3 tacos	2000
+8	Combos	Activo	Combo semanal	10000
+9	Tacos	Activo	2 tacos	1500
+10	Adicionales	Activo	Doraditas	800
+11	Extras	Activo	Pepinillos	250
+12	Pollo	Activo	Alitas	500
+13	Combos	Activo	2muslos+2cuartos+ Papas	3500
+14	Helados	Activo	Azucarado Pequeño	1200
+15	Empanadas	Activo	Empanada arreglada	1200
+16	Combos	Activo	12 pollo+papas	10000
+17	Helados	Activo	Azucarado Grande	2200
+18	Burritos	Activo	Burrito Carne	1500
+19	Empanadas	Activo	Empanada Cicharron y café 	1000
+20	Helados	Activo	Azucarado Mediano	1800
+21	Extras	Activo	Mayonesa de la casa	250
+22	Combos	Inactivo	Combo finde	10000
+23	Papas	Activo	Papas medianas	1000
+24	Papas	Inactivo	Papas pequeñas	750
+25	Empanadas	Activo	Empanada Queso y café 	1000
+26	Burritos	Activo	Burrito pollo	1500
+27	Helados	Activo	Topping	350
+28	Batidos	Activo	Batido en leche	1500
+29	Adicionales	Activo	Perro caliente	1500
+30	Adicionales	Activo	Doraditas pequeñas	500
+31	Hamburguesas	Activo	Hamb.Especial Pollo	3000
+32	Frescos	Activo	Refresco mediano	850
+33	Combos	Activo	Ham.Sencilla+Papas 	2700
+34	Hamburguesas	Activo	Hamb.Sencilla Pollo	2000
+35	Frescos	Activo	Fresco Pequeño	600
+36	Combos	Activo	1 muslo+1 cuarto+Papas	2000
+37	Helados	Activo	Hawaiana	1000
+38	Frescos	Activo	Fresco Grande	1500
+39	Helados	Activo	Promo helado 	400
+40	Pollo	Activo	Pechuga pequeña 	1000
+41	Batidos	Activo	Ensalada de frutas	1800
+42	Hamburguesas	Activo	Hamb.Sencilla Carne	2000
+43	Adicionales	Activo	Gallos	1200
+44	Helados	Activo	Canasta 3 bolas	2200
+45	Frescos	Activo	Refresco mediano	1000
+46	Batidos	Activo	Batido en agua	1200
+47	Pollo	Activo	Muslo	800
+48	Empanadas	Activo	Empanada pollo y café 	1000
+49	Pollo	Activo	Cuarto	800
+50	Pollo	Activo	5 Alitas 	2000
+51	Combos	Activo	8 Pollo+Papas	8000
+52	Extras	Activo	Topping	350
+53	Helados	Activo	Canasta 2 bolas	1500
+54	Combos	Activo	Ham.Especial+Papas 	3700
+55	Batidos	Activo	Milkshakes	2000

@@ -1,0 +1,122 @@
+/* Contenedor general */
+.tabla-contenedor {
+    font-family: "Arial", sans-serif;
+    background: #0d1117;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    color: #c9d1d9;
+    margin: 20px auto;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+  
+  /* Tabla */
+  .tabla {
+    width: 100%;
+    border-collapse: collapse;
+    background: linear-gradient(135deg, #1f2937, #0d1117);
+  }
+  
+  .tabla thead {
+    background: #21262d;
+  }
+  
+  .tabla th {
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 10px;
+    color: #58a6ff;
+    border-bottom: 2px solid #30363d;
+  }
+  
+  .tabla tbody tr {
+    transition: background 0.3s;
+  }
+  
+  .tabla tbody tr:hover {
+    background: #30363d;
+  }
+  
+  .tabla td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #21262d;
+  }
+  
+  /* Estados */
+  .estado-activo {
+    color: #3fb950;
+    font-weight: bold;
+  }
+  
+  .estado-inactivo {
+    color: #f85149;
+    font-weight: bold;
+  }
+  
+  /* Botones */
+  .btn-editar,
+  .btn-eliminar {
+    border: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .btn-editar {
+    background: #238636;
+  }
+  
+  .btn-editar:hover {
+    background: #2ea043;
+  }
+  
+  .btn-eliminar {
+    background: #d73a49;
+  }
+  
+  .btn-eliminar:hover {
+    background: #f85149;
+  }
+  
+  /* Paginación */
+  .paginacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+  }
+  
+  .paginacion button {
+    background: #21262d;
+    color: #c9d1d9;
+    border: 1px solid #30363d;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .paginacion button:hover {
+    background: #30363d;
+  }
+  
+  .paginacion button:disabled {
+    background: #161b22;
+    cursor: not-allowed;
+  }
+  
+  .paginacion select {
+    background: #0d1117;
+    color: #c9d1d9;
+    border: 1px solid #30363d;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  

@@ -1,0 +1,97 @@
+.Texto{
+    text-align: center;
+    width: 80%;
+    word-wrap: break-word;
+    font-size: 24px;
+    margin: 20px auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgba(46, 53, 53, 0.582);
+    padding: 10px;
+    border-radius:12px;
+    outline: none;
+    box-shadow: 0 0 7px rgb(190, 182, 34);
+    font-size:35px;
+}
+.logo{
+    fill: rgb(206, 206, 206);
+    border-bottom: 3px solid green;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    padding: 5px;
+}
+
+.titulo{
+    display:flex;
+    gap:30px;
+    justify-content: center;
+}
+.titulo-mecanografia{
+    font-size:40px;
+    text-shadow: 0 0 15px rgb(0, 0, 0);
+}
+
+.buenas{
+    color: green;
+    padding: 10px;
+    border-radius:5px;
+}
+.malas{
+    color: red;
+    padding: 10px;
+    border-radius:5px;
+}
+.efectividad{
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius:5px;
+}
+.primerparte{
+    height: auto;
+}
+.cuadro{
+    padding: 5px;
+    width: 400px;
+    background-color: rgba(110, 115, 113, 0.413);
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgb(5, 5, 5);
+}
+.segundaparte{
+    width: auto;
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.contenido-mecanografia{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color:rgb(6, 225, 57);
+    text-shadow:0 0 10px rgba(26, 27, 27, 0.74);
+    background: rgb(36, 35, 36);
+    background: linear-gradient(90deg, #000000, #0e2211);
+    width: 100%;
+    min-height: 100vb;
+    height:auto;
+}
+
+.atras{
+    color: aliceblue;
+    background-color: #091f41;
+    border: none;
+    padding: 10px;
+    border-radius: 12px;
+    position: fixed;
+    top: 20px;
+    left: 100px;
+    font-size: 23px;
+    box-shadow: 0 0 10px rgb(76, 156, 180);
+    transition: all 1s;
+}
+
+.atras:hover{
+   transform: scale(1.07);
+}

@@ -7,9 +7,11 @@ nav{
     position: fixed;
     margin: auto;
     justify-content: center;
-    padding: 20px;
+    padding: 20px 0px;
     border-radius: 20px;
     width: 100%;
+    justify-items: center;
+    z-index: 1000;
 }
   nav a {
     color: #fff;
@@ -18,7 +20,15 @@ nav{
     font-weight: bold;
     font-family:monospace;
     font-size: large;
+    transition: all 0.4s;
+  }
+  .opciones{
+    background: linear-gradient(-90deg, #0c4655, rgb(9, 39, 19));
+    padding: 12px;
+    border-radius: 20px;
+    width: 360px;
   }
   nav a:hover {
     color: #4093b9;
+    transition: all 0.4s;
   }

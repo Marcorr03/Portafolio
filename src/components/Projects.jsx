@@ -1,18 +1,27 @@
 import React from 'react';
-import '../css/projects.css'
-const Projects = () => {
+import '../css/projects.css';
+
+const Projects =  ({ onShowProject }) => {
     const projects = [
-        { title: 'Los Pollitos', description: 'Este proyecto es la replica de un proyecto ya en producción.' },
-        { title: 'Mecanografia', description: 'Ejemplo del uso de la logica.' },
+        { 
+            title: 'Los Pollitos', 
+            description: 'Este es un proyecto ya en producción, implementado con React en Firebase.', 
+            action: () => onShowProject('losPollitos')
+        },
+        { 
+            title: 'Mecanografía', 
+            description:"Proyecto para mejorar velocidad y precisión en mecanografía.", 
+            action: () => onShowProject('mecanografia')
+        },
     ];
 
     return (
         <section id="projects">
-            <h2>
+            <div className='title'>
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
+                    width="45"
+                    height="45"
                     viewBox="0 0 24 24"
                     strokeWidth="1.5"
                     stroke="currentColor"
@@ -24,19 +33,20 @@ const Projects = () => {
                     <path d="M16 8l4 4-4 4" />
                     <line x1="14" y1="6" x2="10" y2="18" />
                 </svg>
-                Proyectos
-            </h2>
+                <h2>Proyectos</h2>
+            </div>
             <div className="project-list">
                 {projects.map((project, index) => (
                     <div key={index} className="project-item">
+                        <div className={`image proyecto${index + 1}`} onClick={project.action}></div>
+                        <div>
                         <h3>{project.title}</h3>
                         <p>{project.description}</p>
-                        <div className={`project-image proyecto${index + 1}`}></div>
+                        </div>
                     </div>
                 ))}
             </div>
         </section>
-
     );
 };
 

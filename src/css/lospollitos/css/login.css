@@ -1,0 +1,81 @@
+
+  .container1 {
+    max-width: 400px;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    padding: 20px 30px;
+    margin: 100px auto;
+  }
+  
+  .container1 h2 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  .container1 form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container1 form label {
+    margin-bottom: 5px;
+    color: #e2c105;
+    font-weight: bold;
+  }
+  
+  .container1 form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .container1 form input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.3);
+  }
+  
+  .container1 form button {
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .container1 form button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .container1 form button:hover:not(:disabled) {
+    background-color: #0056b3;
+  }
+  
+  .container1 .toggle-button {
+    margin-top: 10px;
+    text-align: center;
+    background: none;
+    border: none;
+    color: #007bff;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .container1 .toggle-button:hover {
+    color: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-bottom: 15px;
+  }

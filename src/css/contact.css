@@ -1,0 +1,36 @@
+.title2{
+    align-items: center;
+    display: flex;
+    color: rgb(12, 111, 177);
+    font-size: 24px;
+    font-family: Optimistic Display, -apple-system, ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    gap: 10px;
+}
+#contact {
+    text-align: justify;
+}
+
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-links p{
+    margin-right: 40px;
+}
+
+.social-link {
+    font-size: 40px;
+    text-decoration: none;
+    transition: transform 0.2s;
+}
+
+.social-link:hover {
+    transform: scale(1.2); /* Efecto de zoom */
+}
+
+.link{
+    color: rgb(12, 111, 177); 
+}

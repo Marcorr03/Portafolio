@@ -1,6 +1,5 @@
 /* todo */
 .todo {
-  margin: 0; /* Elimina los márgenes predeterminados */
   overflow-x: hidden; /* Oculta el scroll horizontal */
   width: 100%; /* Asegúrate de que el ancho sea dinámico */
   height: 100%;
@@ -13,6 +12,7 @@
   background-position: center;
   background-attachment: fixed;
   font-family: "Montserrat", sans-serif;
+  color: rgb(0, 0, 0);
   }
   /* todo */
   
@@ -60,6 +60,7 @@
     background-position: center;
     z-index: 100;
     height: 100%;
+    margin-left:0;
   }
   
     .sidebar.active {

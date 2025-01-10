@@ -9,7 +9,7 @@ const About = () => {
             </div>
            <h4>Un programador de Cartago, Costa Rica, apasionado por la tecnología y la programación. Actualmente estoy en proceso de formación, combinando estudios con experiencia práctica en desarrollo de software. <span className='texto'>Me destaco por ser proactivo, orientado a resultados y siempre en búsqueda de aprender nuevas tecnologías.</span>
 
-</h4> 
+</h4>
 </section>
     );
 };

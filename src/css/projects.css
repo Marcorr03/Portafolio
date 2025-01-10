@@ -3,11 +3,10 @@
     flex-wrap: wrap;
     gap: 50px;
     padding: 30px;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
     border-radius: 40px;
     justify-content: center;
     text-align: center;
-    justify-items: center;
 }
 
 .project-item h3{
@@ -16,13 +15,13 @@
     font-size: 30px;
     margin:0px 0px 0px 20px;
     text-shadow: 0 0 20px rgb(168, 166, 4);
-    text-align: left;
+    text-align: center;
 }
 
 .project-item p{
     font-size: 15px;
     padding: 20px;
-    text-align: left;
+    text-align: center;
     width: 400px;
     color: rgb(174, 174, 175);
 }
@@ -64,7 +63,7 @@
     .proyecto1,.proyecto2{
         width: auto;
         height: 200px;
-        margin: 20px;
+        margin: 50px;
     }
     .about{
         min-width: 300px;
@@ -83,6 +82,7 @@
 
 #projects{
     backdrop-filter: 12px ;
+    margin-top: -20px;
 }
 
 .image{
@@ -90,6 +90,6 @@
     cursor: pointer;
 }
 .image:hover{
-    transform: scale(1.1);
+    transform: translateY(-5px);
     box-shadow: 0 0 20px rgb(151, 142, 10);
 }

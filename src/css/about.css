@@ -1,6 +1,6 @@
 .presentacion{
     font-size: 40px;
-    text-shadow: 0 0 20px rgb(0, 124, 207)
+    text-shadow:0 0 20px rgb(27, 149, 219) ;
 }
 
 .contentpresen{
@@ -8,15 +8,22 @@
     align-items: center;
     gap: 20px;
     transition: all 1s;
-    padding: 20px;
+    padding: 10px;
+    width:420px;
+    background-color: rgba(211, 211, 211, 0.13);
+    border-radius: 0px 40px 0px 40px;
 }
+.contentpresen:hover{
+    transform: translateY(-5px);
+}
+
 @media(width<730px){
     .contentpresen{
         display: block;
         text-align: center;
         justify-items: center;
         transition: all 1s;
-        padding: 10px;
+        width: 305px;
     }
     .about{
         min-width: 300px;
@@ -25,8 +32,7 @@
 }
 
 .about{
-    border-radius: 20px;
-    text-align:center;
+    text-align:justify;
 }
 
 
@@ -44,7 +50,7 @@
     color: rgb(233, 202, 24);
 }
 h4{
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 400;
     font-family: Onest Variable, system-ui, sans-serif;
     padding: 10px;
@@ -57,6 +63,6 @@ h4{
     cursor: pointer;
 }
 .image1:hover{
-    transform: scale(1.1);
+    transform: translateY(-5px);
     box-shadow: 0 0 20px rgb(5, 71, 109);
 }

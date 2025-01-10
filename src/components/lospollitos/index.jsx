@@ -24,7 +24,7 @@ const Index = ({ onReturn }) => {
   };
 
   return (
-    <div className="todo">
+    <div className="todo ">
       <div className='icono'></div>
       <button
         className="toggle-sidebar"

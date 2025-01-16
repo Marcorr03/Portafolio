@@ -5,6 +5,17 @@
     text-align: center;
 }
 
+.skills-list li{
+    background-color: #0e1c2f;
+    width: auto;
+    padding: 10px;
+    margin: 5px;
+}
+
+.skills-list li:hover{
+    background-color: #08111f;
+}
+
 .skills-section h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
